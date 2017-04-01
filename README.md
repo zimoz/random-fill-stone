@@ -1,10 +1,10 @@
 Objectives:
-•	Randomly fill a NxN 2D array with 0s and 1s. 
-•	Print the array.
-•	Count the number of stones around the selected cell.
-•	Calculated the distribution.
-•	Import the distribution into a new 2D array.
-•	Repeat
+1.	Randomly fill a NxN 2D array with 0s and 1s. 
+2.	Print the array.
+3.	Count the number of stones around the selected cell.
+4.	Calculated the distribution.
+5.	Import the distribution into a new 2D array.
+6.	Repeat
 
 Steps:
 1.	Define the global constants.
@@ -21,7 +21,8 @@ Steps:
 12.	CountDistribution counts the number of neighbours which contain 1 of 3 types of the cells: edge, corner, or inner.
 
 Restrictions:
-0 < bins along each edge <= MAX_SIZEGRID 
-0 < # of stones <= MAX(bins along each edge)^2 
-1 < seed <= RAND_MAX
-0 < number of repeats <= MAX_REPEATS
+1.	0 < bins along each edge <= MAX_SIZEGRID 
+2.	0 < # of stones <= MAX(bins along each edge)^2 
+3.	1 < seed <= RAND_MAX
+4.	0 < number of repeats <= MAX_REPEATS
+
